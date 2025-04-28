@@ -11,9 +11,8 @@
 # Результат вывести в терминал
 
 def merge_list_to_dict(a,b):
-    zip_list = zip(a,b)
-    конвертация_в_список = dict(zip_list)
-    return конвертация_в_список
+   zip_object = zip(a,b)
+   return dict(zip_object)
 
 #аргументы
 a = [1,2,3,4,5,6,7,8,9,10]
